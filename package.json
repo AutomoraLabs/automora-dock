@@ -1,0 +1,32 @@
+{
+  "name": "automora-dock",
+  "version": "0.4.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node dev/server.mjs",
+    "build": "node dev/build.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^7.0.0",
+    "@tauri-apps/api": "^2.0.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "prettier": "^3.9.10",
+    "typescript": "^5.8.0",
+    "vite": "^7.0.0"
+  },
+  "license": "MIT",
+  "description": "A local-first Windows bookmark manager and compact launcher for multiple Chrome profiles.",
+  "author": "Automora Labs",
+  "homepage": "https://automoralabs.store/",
+  "engines": {
+    "node": ">=24"
+  }
+}
